@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    background-color:rgb(53,53,53);
+    color: rgb(201, 243, 225);
+}
+
+header{
+    margin: 10px;
+    font-size: 60px;
+    font-family: 'Comic Sans MS'
+}
+
+.picz{
+    
+    display: inline;
+    overflow: hidden;
+}
+
+.picz img{
+    width: auto;
+    height: 200px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.aboutSection{
+    margin: 30px;
+    font-family: sans-serif;
+    text-align: center;
+    text-align: justify;
+    font-size: 16px;
+    border: 5px dotted rgb(71, 236, 165);
+    border-radius: 5px;
+    padding: 10px;
+}
