@@ -1,35 +1,101 @@
 body{
     text-align: center;
-    background-color:rgb(53,53,53);
+    background-image: linear-gradient(to bottom right, rgb(53,53,53), rgb(123, 189, 195), rgb(97, 97, 97));
     color: rgb(201, 243, 225);
+    font-family: 'Comic Sans MS';
 }
 
 header{
     margin: 10px;
-    font-size: 60px;
-    font-family: 'Comic Sans MS'
+    font-size: 30px;
+    font-family: 'Comic Sans MS';
+    transition-duration: 1s;
+    cursor: grab;
+}
+
+ul{
+    font-family: 'Comic Sans MS';
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li{
+    color: rgb(201, 243, 225);
+    display: block;
+    font-size: 20px;
+    width: 60px;
+    transition-duration: 1s;
+}
+
+li a {
+    display: block;
+    padding: 4px 2px;
+    text-decoration: none;
+    color: rgb(201, 243, 225);
+}
+
+li:hover{
+    transition-duration: 1s;
+    transform: scale(2);
+}
+header:hover{
+    transition-duration: 1s;
+    transform: scale(2);
+}
+
+.top{
+    flex-wrap: wrap;
+    display: inline;
 }
 
 .picz{
-    
     display: inline;
     overflow: hidden;
 }
 
 .picz img{
     width: auto;
-    height: 200px;
+    height: 150px;
     overflow: hidden;
-    margin: auto;
+    margin: 55px;
+    border: 3px solid black;
+    transition-duration: 1s;
+}
+
+.picz img:hover{
+    transition-duration: 1s;
+    transform: scale(2);
 }
 
 .aboutSection{
     margin: 30px;
-    font-family: sans-serif;
     text-align: center;
     text-align: justify;
     font-size: 16px;
-    border: 5px dotted rgb(71, 236, 165);
+    border: 5px double rgb(62, 226, 213);
     border-radius: 5px;
     padding: 10px;
+    font-family: 'Comic Sans MS';
 }
+
+.resumE {
+    font-size: 50px;
+    border: 5px double rgb(62, 226, 213);
+    text-decoration: none;
+    margin: 15px;
+    padding: 5px;
+}
+.resumE >a{
+    text-decoration: none;
+    color: rgb(201, 243, 225);
+}
+
+#butt-on-xd{
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    cursor: pointer;
+    font-family: 'Comic Sans MS';
+    font-size:16px;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);  
+    border-color: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+}  
